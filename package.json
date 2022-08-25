@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "name": "dev-lab-mike-486",
+  "version": "1.0.0",
+  "main": "hello-node.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlameRender/Dev-Lab-Mike-486.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlameRender/Dev-Lab-Mike-486/issues"
+  },
+  "homepage": "https://github.com/FlameRender/Dev-Lab-Mike-486#readme",
+  "description": ""
 }

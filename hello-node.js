@@ -1,8 +1,13 @@
 const express = require('express')
 const app = express()
+const path = require('node:path')
 
 app.get('/', function (req, res) {
-  res.send('HELP THE NODE IS COMING')
+//  res.send('index.html')
+
+res.sendFile(path.join(__dirname, 'index.html'));
+
 })
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000, 
+	() => console.log("Server is running..."));
