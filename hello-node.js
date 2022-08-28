@@ -1,11 +1,14 @@
+//https://mike-486.herokuapp.com/
 const express = require('express')
 const app = express()
 const path = require('node:path')
 
-app.get('/', function (req, res) {
-//  https://mike-486.herokuapp.com/
+console.log('hello from node');
 
-res.sendFile(path.join(__dirname, 'index.html'));
+app.get('/', function (req, res) {
+
+
+  res.sendFile(path.join(__dirname, 'index.html'));
 
 })
 
